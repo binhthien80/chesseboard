@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./handle.js"></script>
+    <script>
+        $(document).ready(function () {
+          $('.list-user').hide()
+          $('.chat-box').hide()
+          $('.caro-board').hide()
+        })
+    </script>
+</head>
+<body>
+    <section class="login">
+        <input type="text" placeholder="Enter your name...." autofocus>
+    </section>
+    <section class="list-user">
+        <div class="user-online">20 users online</div>
+        <div class="list">List</div>
+    </section>
+    <section class="chat-box">
+        chat 
+    </section>
+    <section class="caro-board">
+    </section>
+</body>
+</html>
